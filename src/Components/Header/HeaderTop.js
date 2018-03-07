@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
+import HeaderTop from 'HeaderTop';
 
-class Header extends Component {
+class HeaderTop extends Component {
     render() {
       return (
         <header id="header">
@@ -10,4 +11,4 @@ class Header extends Component {
 }
 }
 
-export default Header;
+export default HeaderTop;

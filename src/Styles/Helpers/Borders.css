@@ -1,0 +1,80 @@
+.bordered--none{ border: none !important; }
+.bordered-top--none{ border-top: none !important; }
+.bordered-bottom--none{ border-bottom: none !important; }
+.bordered-left--none{ border-left: none !important; }
+.bordered-right--none{ border-right: none !important; }
+
+
+
+.bordered--bottom{
+	border: none;
+	border-bottom: 50px solid #d5d5d5;
+}
+
+.bordered--top{
+	border: none;
+	border-top: 1px solid #d5d5d5;
+}
+
+.bordered--left{
+	border: none;
+	border-left: 1px solid #d5d5d5;
+}
+
+.bordered--right{
+	border: none;
+	border-right: 1px solid #ca0b0b;
+}
+
+
+
+
+.bordered--xs{ 
+    border-width: 1px;
+    border-style: solid;
+    border-color: #d5d5d5;
+}
+
+.bordered--sm{ 
+    border-width: 2px;
+}
+
+.bordered--md{ 
+    border-width: 4px;
+}
+
+.bordered--lg{ 
+    border-width: 6px;
+}
+
+.bordered--xl{ 
+    border-width: 10px;
+}
+
+
+
+
+/* radii */
+.border-radius--none{
+ border-radius:0px !important;
+}
+
+.border-radius--xs{
+ border-radius:2px !important;
+}
+
+.border-radius--sm{
+  border-radius:5px !important;
+}
+
+.border-radius--md{
+  border-radius:8px !important;
+}
+
+.border-radius--lg{
+  border-radius:20px !important;
+}
+
+.border-radius--xl{
+    border-radius:300px !important;
+}
