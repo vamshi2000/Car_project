@@ -1,9 +1,12 @@
 import React, { Component } from 'react';
 // import '../Styles/App.css';
+import Header from './Header/Header';
 
 class App extends Component {
   render() {
     return (
+      <main id="main">
+      <Header />
       <section id="grid">
       <div className="container">
         <div className="grid">
@@ -25,6 +28,8 @@ class App extends Component {
         </div>
       </div>
     </section>
+
+    </main>
     );
   }
 }

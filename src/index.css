@@ -7,3 +7,11 @@ body {
 
 /* helpers */
 @import "Styles/Helpers/Borders.css";
+@import "Styles/Helpers/General.css";
+@import "Styles/Helpers/Margins.css";
+@import "Styles/Helpers/Padding.css";
+@import "Styles/Helpers/Shadow.css";
+@import "Styles/Helpers/Visibilty.css";
+@import "Styles/Helpers/Cursors.css";
+
+

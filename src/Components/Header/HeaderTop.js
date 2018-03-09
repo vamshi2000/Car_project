@@ -1,12 +1,15 @@
 import React, { Component } from 'react';
-import HeaderTop from 'HeaderTop';
 
 class HeaderTop extends Component {
     render() {
       return (
-        <header id="header">
-        
-        </header>
+        <section id="headerTop">
+          <div id="headerTopWrapper" className="grid bordered--bottom text-xs-center">
+          <div className="col-12">
+           <small>Car Rental Corporation</small>
+           </div>
+          </div>
+        </section>
     );
 }
 }
